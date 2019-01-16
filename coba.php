@@ -1,15 +1,8 @@
 <?php 
 class Coba{
-
-
-
+	public function __construct()
+	{
+echo "Ini adalah kelas coba.";
 
 }
-$a = new coba();
-$b = new coba();
-$c = new coba();
-
-var_dump($a);
-var_dump($b);
-var_dump($c);
- ?>
+}
